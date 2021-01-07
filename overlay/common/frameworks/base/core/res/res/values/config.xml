@@ -84,6 +84,14 @@
      -->
     <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
 
+    <string-array name="config_priorityOnlyDndExemptPackages">
+        <item>com.google.android.dialer</item>
+        <item>com.android.dialer</item>
+    </string-array>
+
+    <!-- The name of the package that will hold the dialer role by default. -->
+    <string name="config_defaultDialer">com.android.dialer</string>
+
     <!-- List of packages that can use the Conversation space for their category messages
     notifications until they target R -->
     <string-array name="config_notificationMsgPkgsAllowedAsConvos" translatable="false">
